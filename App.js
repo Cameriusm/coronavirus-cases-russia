@@ -23,7 +23,7 @@ export default function App() {
 
   const pressHandler = () => {
     fetch(
-      'https://corona.lmao.ninja/v2/countries/Russia?yesterday&strict&query',
+      'https://corona.lmao.ninja/v2/countries/Russia?yesterday=false&strict&query',
       requestOptions
     )
       .then((response) => response.json())
